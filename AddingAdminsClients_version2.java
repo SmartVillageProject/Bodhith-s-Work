@@ -259,6 +259,13 @@ public class MainActivity extends AppCompatActivity
     }
 
     /* TO DO
+    
+    Method Complete cheystae admin count aentha mandhi vunnaro telustundhi listeners vadi today
+    ->Debug cheyali
+    ->Event Listeners Nerchukovali
+    ->Ae Even Listener First trigger avthundho check karo
+    ->Search cheyatam nerchukvali
+    
     public long AdminCount()
     {
         DataBaseTemp = DataBase;
