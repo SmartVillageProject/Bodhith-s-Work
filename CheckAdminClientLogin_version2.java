@@ -332,7 +332,7 @@ public class MainActivity extends AppCompatActivity
 
         }
     }
-    /*                                          END CLIENT*/
+    /*                                          END CLIENT                                        */
 
 /////////////////////////////////////////////// END LISTENERS //////////////////////////////////////
 
