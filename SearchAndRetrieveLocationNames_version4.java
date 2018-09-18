@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity
         {
             if( flag )
             {
-                flag = true;
+                flag = false;
 
                 continue;
             }
