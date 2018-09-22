@@ -77,6 +77,24 @@ public class MainActivity extends AppCompatActivity
 
         DataBaseTemp.addValueEventListener(new VillagesGenerateList());
     }
+    
+    private void SetLists()
+    {
+        for(int i=0;i<StatesList.size();i++)
+            Log.d("Values",StatesList.get(i));
+
+        for(int i=0;i<DisctrictsList.size();i++)
+            Log.d("Values",DisctrictsList.get(i));
+
+        for(int i=0;i<MandalsList.size();i++)
+            Log.d("Values",MandalsList.get(i));
+
+        for(int i=0;i<PanchayatsList.size();i++)
+            Log.d("Values",PanchayatsList.get(i));
+
+        for(int i=0;i<VillagesList.size();i++)
+            Log.d("Values",VillagesList.get(i));
+    }
 
     ////////////////////////////////////////STATES//////////////////////////////////////////////////
 
@@ -111,24 +129,6 @@ public class MainActivity extends AppCompatActivity
         {
 
         }
-    }
-
-    private void SetLists()
-    {
-        for(int i=0;i<StatesList.size();i++)
-            Log.d("Values",StatesList.get(i));
-
-        for(int i=0;i<DisctrictsList.size();i++)
-            Log.d("Values",DisctrictsList.get(i));
-
-        for(int i=0;i<MandalsList.size();i++)
-            Log.d("Values",MandalsList.get(i));
-
-        for(int i=0;i<PanchayatsList.size();i++)
-            Log.d("Values",PanchayatsList.get(i));
-
-        for(int i=0;i<VillagesList.size();i++)
-            Log.d("Values",VillagesList.get(i));
     }
 
     ////////////////////////////////////////DISTRICTS///////////////////////////////////////////////
