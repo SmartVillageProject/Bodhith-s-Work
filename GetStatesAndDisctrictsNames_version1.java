@@ -58,12 +58,6 @@ public class MainActivity extends AppCompatActivity
         DataBaseTemp = DataBase.child("Disctricts");
 
         DataBaseTemp.addValueEventListener(new DistrictsGenerateList());
-
-        for(int i=0;i<StatesList.size();i++)
-            Log.d("Values",StatesList.get(i));
-
-        for(int i=0;i<DisctrictsList.size();i++)
-            Log.d("Values",DisctrictsList.get(i));
     }
 
 
@@ -85,8 +79,14 @@ public class MainActivity extends AppCompatActivity
                     continue;
                 }
 
-                StatesList.add(SnapShot.toString());
+                StatesList.add(SnapShot.getValue().toString());
             }
+            
+            for(int i=0;i<StatesList.size();i++)
+            Log.d("Values",StatesList.get(i));
+
+            for(int i=0;i<DisctrictsList.size();i++)
+            Log.d("Values",DisctrictsList.get(i));
         }
 
         @Override
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity
                     continue;
                 }
 
-                DisctrictsList.add(SnapShot.toString());
+                DisctrictsList.add(SnapShot.getValue().toString());
             }
         }
 
